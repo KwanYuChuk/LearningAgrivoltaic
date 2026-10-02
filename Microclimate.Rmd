@@ -20,13 +20,21 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 2026 | 10 | 02 Last compiled: `r Sys.Date()`
 
-TBC
+Surface energy balance equation:
+
+$$R_n = H + LE + G$$
+
+where $R_n$ is net radiation ($\text{W m}^{-2}$), $H$ is sensible heat flux ($\text{W m}^{-2}$), $LE$ is latent heat flux ($\text{W m}^{-2}$), $G$ is soil heat flux ($\text{W m}^{-2}$).
 
 # **Water**
 
 2026 | 10 | 02 Last compiled: `r Sys.Date()`
 
-TBC
+Penman-Monteith equation:
+
+$$\lambda ET = \frac{\Delta (R_n - G) + \rho_a c_p \frac{(e_s - e_a)}{r_a}}{\Delta + \gamma \left(1 + \frac{r_s}{r_a}\right)}$$
+
+Where $ET_0$ is reference evapotranspiration (mm/day), $R_n$ is net radiation, $G$ is soil heat flux density, $\Delta$ is the slope vapor pressure curve, and $\gamma$ is the psychrometric constant.
 
 # **Temperature**
 
