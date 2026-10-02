@@ -19,27 +19,19 @@ output: html_document
 
 # **Agrivoltaic Learnning**
 
-This is a webpage to store my agrivoltaic learning notes. I'm a PhD student at the University of Western Australia. 
+This is a webpage to store my agrivoltaic learning notes. 
 
-My research interests: agrivoltaic, microclimate, ecohydrology, remote sensing
+I am a dedicated geospatial enthusiast from Hong Kong with a Master of Environmental Science (**Sensing and Spatial Data Science**) at the University of Western Australia, awarded with Distinction. I bring a solid foundation in geospatial modelling and analysis. I'm a PhD student at the University of Western Australia now. My research topic is **agrivoltaic modelling**.
 
-## How to use
-
-1. fork the repo for this website and follow instructions on read me to get set up. [https://github.com/CrumpLab/LabJournalWebsite](https://github.com/CrumpLab/LabJournalWebsite)
-
-2. Blog/journal what you are doing in R, by editing the Journal.Rmd. See the [Journal page](https://crumplab.github.io/LabJournalWebsite/Journal.html) for an example of what to do to get started learning R.
-
-3. See the [links page](https://crumplab.github.io/LabJournalWebsite/Links.html) for lots of helpful links on learning R.
-
-4. Change everything to make it your own.
+**My research interests: agrivoltaic, microclimate, ecohydrology, remote sensing**
 
 
 </div>
 <div class="col-sm-6">
 
-### [Crump Lab: Human Cognition and Performance](https://crumplab.github.io)
+### [KY: Geospatial and microclimate enthusiast](https://kwanyuchuk.github.io/)
 
-<a href = "https://crumplab.github.io">
+<a href = "https://kwanyuchuk.github.io">
 ![](images/logo.png)
 </a>
 </div>
