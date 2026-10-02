@@ -3,7 +3,7 @@ title: "Resources"
 output: html_document
 ---
 
-
+### **Google is great. AI is great**
 
 ### R and R-Studio
 
@@ -15,4 +15,7 @@ output: html_document
 2. [Terrestrial Biosphere-Atmosphere Fluxes](https://www.cambridge.org/core/books/terrestrial-biosphereatmosphere-fluxes/43C9DC719235C8832D6BD6D90B6EFA49) is great.
 3. Food and Agriculture Organization of the United Nations (FAO) [Crop evapotranspiration](https://www.fao.org/4/x0490e/x0490e00.htm#Contents) website, it's worth checking out.
 
-### **Google is great. AI is great**
+### Personal links
+1. [LinkedIn](www.linkedin.com/in/kwan-yu-chuk-aa88a62a8)
+2. [Personal website](https://kwanyuchuk.github.io/)
+3. [Github page](https://github.com/KwanYuChuk)
