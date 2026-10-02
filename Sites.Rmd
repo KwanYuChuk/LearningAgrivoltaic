@@ -20,33 +20,25 @@ I will probably use data from following sites.
 
 2026 | 10 | 02 Last compiled: `r Sys.Date()`
 
-Notice that whatever you define as a top level header, automatically gets put into the table of contents bar on the left. 
 
-## Second level header
-
-You can add more headers by adding more hashtags. These won't be put into the table of contents
-
-### third level header
-
-Here's an even lower level header
 
 # **Bickley Vineyard**
 
 2026 | 10 | 02 Last compiled: `r Sys.Date()`
 
-I'm writing this tutorial going from the top down. And, this is how it will be printed. So, notice the second post is second in the list. If you want your most recent post to be at the top, then make a new post starting at the top. If you want the oldest first, do, then keep adding to the bottom
+
 
 # **Tatura Smart Farm**
 
 2026 | 10 | 02 Last compiled: `r Sys.Date()`
 
-So far this is just a blog where you can write in plain text and serve your writing to a webpage. One of the main purposes of this lab journal is to record your progress learning R. The reason I am asking you to use this process is because you can both make a website, and a lab journal, and learn R all in R-studio. This makes everything really convenient and in the sam place. 
+A research paper from Tatura Smart Farm experiment: [Long-term effects of agrivoltaics on yield and fruit quality performance of bi-color (blush) pears](https://www.sciencedirect.com/science/article/pii/S0304423826000555)
 
 # **Dookie Campus**
 
 2026 | 10 | 02 Last compiled: `r Sys.Date()`
 
-Use this lab journal to record what you do in R. This way I will be able to see what you are doing and help you along the way. You will also be creating a repository of all the things you do. You can make posts about everything. Learning specific things in R (project unrelated), and doing things for the project that we will discuss at the beginning of the Fall semester. You can get started now by fiddling around with googling things, and trying stuff out in R. I've placed some helpful starting links in the links page on this website
+A research paper from Dookie Campus: [Synergistic benefits of agrivoltaics for grape production and solar energy efficiency in a Mediterranean vineyard](https://nph.onlinelibrary.wiley.com/doi/full/10.1002/ppp3.70249)
 
 
 
