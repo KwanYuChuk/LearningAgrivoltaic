@@ -14,4 +14,8 @@ navbar:
       href: Journal.html
     - text: "Links"
       href: Links.html
+footer:
+  left: |
+    All content by [Kwan Yu Chuk](https://github.com/kwanyuchuk).   
+    Created with [rmarkdown](https://rmarkdown.rstudio.com/) in RStudio. 
 output_dir: "docs"
