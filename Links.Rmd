@@ -1,9 +1,14 @@
 ---
 title: "Resources"
-output: html_document
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    collapsed: false
+    number_sections: false
+    toc_depth: 3
+    #code_folding: hide
 ---
-
-### **Google is great. AI is great**
 
 ### R and R-Studio
 
@@ -24,3 +29,5 @@ output: html_document
 1. [LinkedIn](www.linkedin.com/in/kwan-yu-chuk-aa88a62a8)
 2. [Personal website](https://kwanyuchuk.github.io/)
 3. [Github page](https://github.com/KwanYuChuk)
+
+### **Google is great. AI is great**
