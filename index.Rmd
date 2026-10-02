@@ -35,6 +35,6 @@ If I were not doing research, you could find me running along the lake, coding, 
 ### [About me: Geospatial and microclimate enthusiast](https://kwanyuchuk.github.io/)
 
 <a href = "https://kwanyuchuk.github.io">
-![](images/ky.png){width=75%}
+![](images/ky.png)
 </a>
 </div>
