@@ -17,7 +17,7 @@ output: html_document
 <div class="row" style="padding-top: 30px;">
 <div class="col-sm-6">
 
-# **Agrivoltaic Learnning**
+# **Agrivoltaic Learning**
 
 This is a webpage to store my agrivoltaic learning notes. 
 
