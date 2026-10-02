@@ -15,7 +15,8 @@ output: html_document
 </style>
 
 <div class="row" style="padding-top: 30px;">
-<div class="col-sm-6">
+<div class="col-sm-6" style="font-size: 18px;">
+
 
 # **Agrivoltaic Learning**
 
@@ -27,7 +28,7 @@ I am a dedicated geospatial enthusiast from Hong Kong with a Master of Environme
 
 
 </div>
-<div class="col-sm-6">
+<div class="col-sm-6" style="font-size: 14px;">
 
 ### [KY: Geospatial and microclimate enthusiast](https://kwanyuchuk.github.io/)
 
