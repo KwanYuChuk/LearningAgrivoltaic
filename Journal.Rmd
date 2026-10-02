@@ -30,4 +30,6 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 Claude (free) 給我的感覺是一個非常嚴厲的導師，話不多而句句切中痛點。Chatgpt (free) 大概被我用壞了，回復很長，囉囉嗦嗦講了上千字，有點點在奉承。Gemini (plus) 只改了幾個語法錯誤，更適合來讀文獻。
 
+（16：59 update）我今日白天在學校無心科研，時間都用來研究怎麽用Rmarkdown創建agrivoltaic學習網站了，一日下來還弄得有模有樣。但是我在修改proposal上卡了太久了，連自己都不想打開文件看一個月前的狗屎，這種情況下除了科研，幹啥都有趣。
+
 以上。
