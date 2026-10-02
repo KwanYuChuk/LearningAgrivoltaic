@@ -1,6 +1,6 @@
-name: "MyLabJournal"
+name: "Agrivoltaic Learning"
 navbar:
-  title: "MyLabJournal"
+  title: "Agrivoltaic Learning"
   left:
     - text: "Home"
       href: index.html
