@@ -22,7 +22,9 @@ output: html_document
 
 This is a webpage to store my agrivoltaic learning notes. 
 
-I am a dedicated geospatial enthusiast from Hong Kong with a Master of Environmental Science (**Sensing and Spatial Data Science**) at the University of Western Australia, awarded with Distinction. I bring a solid foundation in geospatial modelling and analysis. I'm a PhD student at the University of Western Australia now. My research topic is **agrivoltaic modelling**.
+I am a dedicated geospatial enthusiast from Hong Kong with a Master of Environmental Science (**Sensing and Spatial Data Science**) at the University of Western Australia, awarded with Distinction. I bring a solid foundation in geospatial modelling and analysis. I'm currently a PhD student at the University of Western Australia now. My research topic related to **agrivoltaic modelling**.
+
+If I were not doing research, you could find me running along the lake, coding, volunteering or sleeping. 
 
 **My research interests: agrivoltaic, microclimate, ecohydrology, remote sensing**
 
@@ -30,7 +32,7 @@ I am a dedicated geospatial enthusiast from Hong Kong with a Master of Environme
 </div>
 <div class="col-sm-6" style="font-size: 14px;">
 
-### [KY: Geospatial and microclimate enthusiast](https://kwanyuchuk.github.io/)
+### [About me: Geospatial and microclimate enthusiast](https://kwanyuchuk.github.io/)
 
 <a href = "https://kwanyuchuk.github.io">
 ![](images/logo.png)
