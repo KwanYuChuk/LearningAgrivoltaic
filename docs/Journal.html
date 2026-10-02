@@ -353,7 +353,8 @@ div.tocify {
 </div>
 
 
-<p>2026 | 10 | 02</p>
+<div id="section" class="section level3">
+<h3>2026 | 10 | 02</h3>
 <p><strong>講講這個repo的本意</strong></p>
 <p>我的本意是創建一個網站來記錄PhD學習的過程。初步構想是使用Rmarkdown及一個開源github
 page搭建一個網站。但是對兩者都知之甚少。基於此，我便先記錄在Rmarkdown上面，等後續有時間再慢慢補全。</p>
@@ -367,6 +368,7 @@ Chatgpt與Gemini.</p>
 大概被我用壞了，回復很長，囉囉嗦嗦講了上千字，有點點在奉承。Gemini
 (plus) 只改了幾個語法錯誤，更適合來讀文獻。</p>
 <p>以上。</p>
+</div>
 
 
 
@@ -417,7 +419,7 @@ $(document).ready(function ()  {
 
     // establish options
     var options = {
-      selectors: "h1",
+      selectors: "h1,h2,h3",
       theme: "bootstrap3",
       context: '.toc-content',
       hashGenerator: function (text) {
