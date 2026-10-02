@@ -1,1 +1,3 @@
-This is a [webpage](https://kwanyuchuk.github.io/LearningAgrivoltaic/index.html) to store my agrivoltaic learning notes.
+This is a webpage to store my agrivoltaic learning notes.
+
+You can get to the Github pages for this repository at https://kwanyuchuk.github.io/LearningAgrivoltaic/index.html
