@@ -15,6 +15,11 @@ output: html_document
 2. [Terrestrial Biosphere-Atmosphere Fluxes](https://www.cambridge.org/core/books/terrestrial-biosphereatmosphere-fluxes/43C9DC719235C8832D6BD6D90B6EFA49) is great.
 3. Food and Agriculture Organization of the United Nations (FAO) [Crop evapotranspiration](https://www.fao.org/4/x0490e/x0490e00.htm#Contents) website, it's worth checking out.
 
+### Agrivoltaic project website
+
+1. [ZNEAG CRC](https://zneagcrc.com.au/research_project/agrivoltaics-integrating-profitable-agricultural-production-and-renewable-energy-generation/): Agrivoltaics: Integrating Profitable Agricultural Production and Renewable Energy Generation
+2. [WAARC](https://gemini.google.com/app/1895b1a9c6c9dc52?hl=en-AU): Agrivoltaics: Integrating Profitable Agricultural Production and Renewable Energy Generation brings together leading researchers, growers and energy experts from across Australia to explore the co-location of solar panels and agricultural production – known as agrivoltaics.
+
 ### Personal links
 1. [LinkedIn](www.linkedin.com/in/kwan-yu-chuk-aa88a62a8)
 2. [Personal website](https://kwanyuchuk.github.io/)

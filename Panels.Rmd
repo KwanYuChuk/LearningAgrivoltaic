@@ -18,7 +18,7 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 # **Panel materials**
 
-2018 | 7 | 23 Last compiled: `r Sys.Date()`
+2026 | 10 | 02 Last compiled: `r Sys.Date()`
 
 **Conventional c-Si**: single-sided monocrystalline or polycrystalline silicon modules, characterised by a single active surface exposed to direct solar radiation. <span style="color:blue">Usually moderate to high shading</span>.
 
@@ -32,13 +32,13 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 # **Tracking strategies**
 
-2018 | 7 | 23 Last compiled: `r Sys.Date()`
+2026 | 10 | 02 Last compiled: `r Sys.Date()`
 
-
+TBC
 
 # **General configurations**
 
-2018 | 7 | 23 Last compiled: `r Sys.Date()`
+2026 | 10 | 02 Last compiled: `r Sys.Date()`
 
-
+TBC
 
