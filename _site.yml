@@ -4,6 +4,12 @@ navbar:
   left:
     - text: "Home"
       href: index.html
+    - text: "Study sites"
+      href: Sites.html
+    - text: "Microclimate"
+      href: Microclimate.html
+    - text: "Panels"
+      href: Panels.html
     - text: "Journal"
       href: Journal.html
     - text: "Links"
