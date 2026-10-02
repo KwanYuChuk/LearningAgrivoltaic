@@ -40,7 +40,7 @@ Issues  identified:
 
 2. There is a slope. The soil moisture sensor at control site is at upper slope and at treatment site is at lower slope. Accuracy of Sws measurement will be affected by this design and slope. If could, we need to relocate control soil moisture sensor, making it perpendicular to the row.
 
-![Bickley Vineyard](images/Bickley.jpg){width=25%}
+![Bickley Vineyard (Credit: C.Moore)](images/Bickley.jpg){width=25%}
 
 # **Tatura Smart Farm**
 
