@@ -14,6 +14,12 @@ output:
 knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 ```
 
+### 2026 | 10 | 05
+
+立flag, 今日一定要改完introduction.
+
+改完之後再係尼度update.
+
 ### 2026 | 10 | 03 
 
 某次一哥們問我：你能感受到科學之美嗎？我回答：這就是我讀博的理由。
