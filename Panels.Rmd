@@ -32,13 +32,25 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 # **Tracking strategies**
 
-2026 | 10 | 02 Last compiled: `r Sys.Date()`
+2026 | 10 | 05 Last compiled: `r Sys.Date()`
 
-TBC
+Sun tracking: The standard operation of the solar tracker, designed to maximize energy output
+
+Anti tracking: The inverse of sun tracking, aimed at maximizing ground irradiance or minimizing solar irradiation interception by the PV system.
+
+Scheduled tracking: A hybrid strategy that alternates between sun tracking and anti tracking throughout the day. For example, between 11am to 3pm use sun tracking and remaining hours use anti tracking. <span style="color:blue">This is to avoid midday hottest and most irradiated hours that incoming light may exceed the crop's usable range</span>. 
+
+Daily light integral tracking: Initially follows the anti tracking strategy until the crop's required DLI is met, then switches to sun tracking for the remainder of the day prioritizing energy conversion (light for crop use first and then energy).
+
+Knee point tracking: It chooses the optimal tilt angle based on the ambient temperature in the field that is derived out of the optimal PAR of the LRC using the KP.
+
+*Note: I'm really interested with different tracking strategies, especially those prioritize crop light requirements (and not so many research papers about this - there is a big research gap). But I read a Australian review paper and realize Australian farmers are more care about general configurations, like panel height, row spacing, material...I need to consider what farmers need, not just my interests.*
 
 # **General configurations**
 
 2026 | 10 | 02 Last compiled: `r Sys.Date()`
 
-TBC
+Panel height
+
+Row spacing
 
