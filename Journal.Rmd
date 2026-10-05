@@ -22,6 +22,8 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 (9:56) 在office工作經常被打斷。Office有11個人，進進出出，與別人説話，跟我説話，借東西。我要想一個功能，隱藏部分日記内容。今日先把introduction搞定。
 
+(16:01) 點解成日有人同我講野？我好難focus吖。
+
 ### 2026 | 10 | 03 
 
 某次一哥們問我：你能感受到科學之美嗎？我回答：這就是我讀博的理由。
