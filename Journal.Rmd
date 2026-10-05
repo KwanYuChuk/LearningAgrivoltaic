@@ -24,6 +24,8 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 (16:01) 點解成日有人同我講野？我好難focus吖。
 
+(23:59) 新的comments來了，我又回到被introduction支配的恐懼了。
+
 ### 2026 | 10 | 03 
 
 某次一哥們問我：你能感受到科學之美嗎？我回答：這就是我讀博的理由。
