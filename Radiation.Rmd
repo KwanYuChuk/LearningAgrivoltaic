@@ -14,7 +14,7 @@ output:
 knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 ```
 
-
+This part will mainly in literature review and RQ3.
 
 # **Radiance**
 2026 | 10 | 05 Last compiled: `r Sys.Date()`

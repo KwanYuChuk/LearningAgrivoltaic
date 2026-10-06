@@ -20,9 +20,9 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 2026 | 10 | 02 Last compiled: `r Sys.Date()`
 
-**Conventional c-Si**: single-sided monocrystalline or polycrystalline silicon modules, characterised by a single active surface exposed to direct solar radiation. <span style="color:blue">Usually moderate to high shading</span>.
+**Conventional c-Si**: single-sided monocrystalline or polycrystalline silicon modules, characterised by a single active surface exposed to direct solar radiation. <span style="color:blue">Usually moderate to high shading</span>. Common in tracking systems.
 
-**Bifacial PV**: two active surfaces capable of absorbing not only direct and diffuse radiation, but also that reflected from the ground. <span style="color:blue">Usually low to moderate shading in vertical; moderate to high shading in tilt</span>.
+**Bifacial PV**: two active surfaces capable of absorbing not only direct and diffuse radiation, but also that reflected from the ground. <span style="color:blue">Usually low to moderate shading in vertical; moderate to high shading in tilt</span>. Common in horticulture.
 
 **Semi-tranparent PV**: transmit a significant amount of PAR, while filtering out wavelengths that cannot be used by plants and converting them into electricity. <span style="color:blue">Usually low to moderate shading</span>.
 
@@ -44,7 +44,7 @@ Daily light integral tracking: Initially follows the anti tracking strategy unti
 
 Knee point tracking: It chooses the optimal tilt angle based on the ambient temperature in the field that is derived out of the optimal PAR of the LRC using the KP.
 
-*Note: I'm really interested with different tracking strategies, especially those prioritize crop light requirements (and not so many research papers about this - there is a big research gap). But I read a Australian review paper and realize Australian farmers are more care about general configurations, like panel height, row spacing, material...I need to consider what farmers need, not just my interests.*
+*Note: I'm really interested with different tracking strategies, especially those prioritize crop light requirements (and not so many research papers about this - there is a big research gap). But I read an Australian review paper and realize Australian farmers are more care about general configurations, like panel height, row spacing, material...I need to consider what farmers need, not just my interests.*
 
 # **General configurations**
 
