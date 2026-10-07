@@ -14,23 +14,19 @@ output:
 knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 ```
 
+# **AV system architectures**
 
+2026 | 10 | 07 Last compiled: `r Sys.Date()`
 
-# **Panel materials**
+**Fixed AV**: include ground-mounted, elevated (stilt-mounted), rooftops, and greenhouse-integrated configurations. Tilt and orientation are constant, with crop exposure determined mainly by panel spacing and mounting height. Elevated designs enhance machinery access and light distribution.
 
-2026 | 10 | 02 Last compiled: `r Sys.Date()`
+## **General configurations**
 
-**Conventional c-Si**: single-sided monocrystalline or polycrystalline silicon modules, characterised by a single active surface exposed to direct solar radiation. <span style="color:blue">Usually moderate to high shading</span>. Common in tracking systems.
+Key parameters—panel height (2–8 m), spacing (3–12 m), shading ratio (0.2–0.8), and tilt (0–45◦), to regulate light distribution, microclimate, crop responses.
 
-**Bifacial PV**: two active surfaces capable of absorbing not only direct and diffuse radiation, but also that reflected from the ground. <span style="color:blue">Usually low to moderate shading in vertical; moderate to high shading in tilt</span>. Common in horticulture.
+**Dynamic AV**: single—or dual-axis tracking systems that adjust panel orientation in real time, enhancing PV yield while dynamically adjusting shading patterns.  Higher capital costs, increased mechanical complexity, and greater maintenance requirements.
 
-**Semi-tranparent PV**: transmit a significant amount of PAR, while filtering out wavelengths that cannot be used by plants and converting them into electricity. <span style="color:blue">Usually low to moderate shading</span>.
-
-**Concentrating PV**: convey solar radiation to high-efficiency multi-junction cells, allowing the diffuse component of the radiation to pass through to the plants. <span style="color: blue">Designed for low crop light penaty</span>.
-
-
-
-# **Tracking strategies**
+## **Tracking strategies**
 
 2026 | 10 | 05 Last compiled: `r Sys.Date()`
 
@@ -46,11 +42,19 @@ Knee point tracking: It chooses the optimal tilt angle based on the ambient temp
 
 *Note: I'm really interested with different tracking strategies, especially those prioritize crop light requirements (and not so many research papers about this - there is a big research gap). But I read an Australian review paper and realize Australian farmers are more care about general configurations, like panel height, row spacing, material...I need to consider what farmers need, not just my interests.*
 
-# **General configurations**
+# **Panel materials**
 
 2026 | 10 | 02 Last compiled: `r Sys.Date()`
 
-Panel height
+**Conventional c-Si**: single-sided monocrystalline or polycrystalline silicon modules, characterised by a single active surface exposed to direct solar radiation. <span style="color:blue">Usually moderate to high shading</span>. Common in tracking systems.
 
-Row spacing
+**Bifacial PV**: two active surfaces capable of absorbing not only direct and diffuse radiation, but also that reflected from the ground. <span style="color:blue">Usually low to moderate shading in vertical; moderate to high shading in tilt</span>. Common in horticulture.
+
+**Semi-tranparent PV**: transmit a significant amount of PAR, while filtering out wavelengths that cannot be used by plants and converting them into electricity. <span style="color:blue">Usually low to moderate shading</span>.
+
+**Concentrating PV**: convey solar radiation to high-efficiency multi-junction cells, allowing the diffuse component of the radiation to pass through to the plants. <span style="color: blue">Designed for low crop light penaty</span>.
+
+
+
+
 
