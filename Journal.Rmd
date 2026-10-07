@@ -14,6 +14,18 @@ output:
 knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 ```
 
+### 2026 | 10 | 07
+
+昨天和導師開會主要在討論scientific writing和AI在寫作中的運用。
+
+Scientific writing是在學術訓練中很重要的一部分，而我寫的東西都是狗屎。總的introduction和每一個章節的introduction都要大改，導師說我paragraph有很大的問題，sentence是disconnected.然後發了我一些寫作的資料。
+
+關於如何恰儅地在學術寫作中使用AI，我終於問到了一個明確的答案。導師表示你可以把你的初稿喂給AI，讓AI修改文法潤色，再把修改後的稿發她——這樣看起來也順暢點，不會全篇文法錯誤影響閲讀，同時也是own ideas.
+
+向導師吹牛逼在下周二前完成proposal的修改。
+
+今日目標：(1) 看完Thinking about your writing, introduction slides, paragraph slides. (2) 修改RQ1.
+
 ### 2026 | 10 | 06
 
 今日與WAARC的人meeting,她問了我的background,并表示香港真的有農業嗎，怎麽我會去讀agrivoltaic phd?
