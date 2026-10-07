@@ -12,12 +12,10 @@ navbar:
       href: Radiation.html
     - text: "Panels"
       href: Panels.html
+    - text: "Suitability"
+      href: Suitability.html
     - text: "Journal"
       href: Journal.html
     - text: "Links"
       href: Links.html
-footer:
-  left: |
-    All content by [Kwan Yu Chuk](https://github.com/kwanyuchuk).   
-    Created with [rmarkdown](https://rmarkdown.rstudio.com/) in RStudio. 
-output_dir: "docs"
+

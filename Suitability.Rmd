@@ -1,0 +1,25 @@
+---
+title: "Panel configuration"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    collapsed: false
+    number_sections: false
+    toc_depth: 1
+    #code_folding: hide
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
+```
+
+
+
+# **Agro–Ecological Zoning**
+
+2026 | 10 | 07 Last compiled: `r Sys.Date()`
+
+The Agro–Ecological Zoning (AEZ) methodology is based on the principles of land evaluation (FAO, 1976), and it serves as a framework supporting sustainable agricultural development by delineating various agricultural land utilization possibilities. 
+
+

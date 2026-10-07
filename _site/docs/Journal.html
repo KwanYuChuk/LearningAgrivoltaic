@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Journal</title>
+
+<script src="site_libs/header-attrs-2.31/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/jqueryui-1.13.2/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Agrivoltaic Learning</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li>
+  <a href="Sites.html">Study sites</a>
+</li>
+<li>
+  <a href="Microclimate.html">Microclimate</a>
+</li>
+<li>
+  <a href="Radiation.html">Radiation</a>
+</li>
+<li>
+  <a href="Panels.html">Panels</a>
+</li>
+<li>
+  <a href="Journal.html">Journal</a>
+</li>
+<li>
+  <a href="Links.html">Links</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Journal</h1>
+
+</div>
+
+
+<div id="section" class="section level3">
+<h3>2026 | 10 | 07</h3>
+<p>昨天和導師開會主要在討論scientific writing和AI在寫作中的運用。</p>
+<p>Scientific
+writing是在學術訓練中很重要的一部分，而我寫的東西都是狗屎。總的introduction和每一個章節的introduction都要大改，導師說我paragraph有很大的問題，sentence是disconnected.然後發了我一些寫作的資料。</p>
+<p>關於如何恰儅地在學術寫作中使用AI，我終於問到了一個明確的答案。導師表示你可以把你的初稿喂給AI，讓AI修改文法潤色，再把修改後的稿發她——這樣看起來也順暢點，不會全篇文法錯誤影響閲讀，同時也是own
+ideas.</p>
+<p>向導師吹牛逼在下周二前完成proposal的修改。</p>
+<p>今日目標：(1) 看完Thinking about your writing, introduction slides,
+paragraph slides. (2) 修改RQ1.</p>
+</div>
+<div id="section-1" class="section level3">
+<h3>2026 | 10 | 06</h3>
+<p>今日與WAARC的人meeting,她問了我的background,并表示香港真的有農業嗎，怎麽我會去讀agrivoltaic
+phd?</p>
+<p>我表示我是GIS出生的，在讀碩士期間幫一個農業咨詢公司分析地理數據。隨後我發現農民需要那些數據，而地理數據分析又恰好是我擅長的。所以做碩士論文的時候我的相關題目是分析西澳某農場的碳與水動態。在碩士畢業后我問了碩導有沒有博士名額，碩導說有，所以我就讀博了。我坦白我不瞭解農業，我只是喜歡科研，做數據分析，并從數據中發現故事。</p>
+<p>WAARC的人隨後表示，現代農業確實需要跨行業的人。</p>
+<p>Agrivoltaic這個項目，我一不懂農業，二不懂工程。比起本碩博一路相關領域上來的人，也有在業界積纍沉澱了很多年的人，我需要投入更多的努力，填補我的知識空白。</p>
+<p>這就是科學之美。學科不是獨立的，它們是緊密相連的。</p>
+</div>
+<div id="section-2" class="section level3">
+<h3>2026 | 10 | 05</h3>
+<p>立flag, 今日一定要改完introduction.</p>
+<p>改完之後再係尼度update.</p>
+<p>(9:56)
+在office工作經常被打斷。Office有11個人，進進出出，與別人説話，跟我説話，借東西。我要想一個功能，隱藏部分日記内容。今日先把introduction搞定。</p>
+<p>(16:01) 點解成日有人同我講野？我好難focus吖。</p>
+<p>(23:59) 新的comments來了，我又回到被introduction支配的恐懼了。</p>
+</div>
+<div id="section-3" class="section level3">
+<h3>2026 | 10 | 03</h3>
+<p>某次一哥們問我：你能感受到科學之美嗎？我回答：這就是我讀博的理由。</p>
+<p>這番話把我拉回本科階段。Prof
+Zhu是我本科導師，我當時的畢業論文是使用光學遙感做野火分析。在讀博開始前一周我回PolyU看望Prof
+Zhu,
+教授順便把我拉去了他的組會，這麽介紹我：最早的學生之一，被我忽悠著去做科研的。</p>
+<p>那麽多年過去，我終於走上了科研的路。只是有點遺憾，我大概無緣光學遙感了。</p>
+</div>
+<div id="section-4" class="section level3">
+<h3>2026 | 10 | 02</h3>
+<p><strong>講講這個repo的本意</strong></p>
+<p>我的本意是創建一個網站來記錄PhD學習的過程。初步構想是使用Rmarkdown及一個開源github
+page搭建一個網站。但是對兩者都知之甚少。基於此，我便先記錄在Rmarkdown上面，等後續有時間再慢慢補全。</p>
+<p>日記部分主要會以中文形式呈現，學習筆記以英文爲主，中文為輔。</p>
+<p><strong>再講講AI在科研中的運用</strong></p>
+<p>這段時間我在修改PhD開題報告。遇到的一個很大的問題是導師寫了很多so
+what類的評論。我試著把我寫的狗屎原文投喂給3個AI，分別是Claude,
+Chatgpt與Gemini.</p>
+<p>Claude (free)
+給我的感覺是一個非常嚴厲的導師，話不多而句句切中痛點。Chatgpt (free)
+大概被我用壞了，回復很長，囉囉嗦嗦講了上千字，有點點在奉承。Gemini
+(plus) 只改了幾個語法錯誤，更適合來讀文獻。</p>
+<p>（16：59
+update）我今日白天在學校無心科研，時間都用來研究怎麽用Rmarkdown創建agrivoltaic學習網站了，一日下來還弄得有模有樣。但是我在修改proposal上卡了太久了，連自己都不想打開文件看一個月前的狗屎，這種情況下除了科研，幹啥都有趣。</p>
+<p>以上。</p>
+</div>
+
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+<script>
+$(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
