@@ -6,10 +6,8 @@ navbar:
       href: index.html
     - text: "Study sites"
       href: Sites.html
-    - text: "Microclimate"
-      href: Microclimate.html
-    - text: "Radiation"
-      href: Radiation.html
+    - text: "Modelling"
+      href: Modelling.html
     - text: "Panels"
       href: Panels.html
     - text: "Suitability"

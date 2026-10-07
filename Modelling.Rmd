@@ -1,5 +1,5 @@
 ---
-title: "Microclimate"
+title: "Modelling"
 output:
   html_document:
     toc: true
@@ -14,9 +14,9 @@ output:
 knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 ```
 
+# **Microclimate modelling**
 
-
-# **Energy**
+## **Energy**
 
 2026 | 10 | 02 Last compiled: `r Sys.Date()`
 
@@ -26,7 +26,7 @@ $$R_n = H + LE + G$$
 
 where $R_n$ is net radiation ($\text{W m}^{-2}$), $H$ is sensible heat flux ($\text{W m}^{-2}$), $LE$ is latent heat flux ($\text{W m}^{-2}$), $G$ is soil heat flux ($\text{W m}^{-2}$).
 
-# **Water**
+## **Water**
 
 2026 | 10 | 02 Last compiled: `r Sys.Date()`
 
@@ -36,9 +36,26 @@ $$\lambda ET = \frac{\Delta (R_n - G) + \rho_a c_p \frac{(e_s - e_a)}{r_a}}{\Del
 
 Where $ET_0$ is reference evapotranspiration (mm/day), $R_n$ is net radiation, $G$ is soil heat flux density, $\Delta$ is the slope vapor pressure curve, and $\gamma$ is the psychrometric constant.
 
-# **Temperature**
+## **Temperature**
 
 2026 | 10 | 02 Last compiled: `r Sys.Date()`
 
 TBC
 
+# **Radiation modelling**
+
+This part will mainly in literature review and RQ3.
+
+## **Radiance**
+2026 | 10 | 05 Last compiled: `r Sys.Date()`
+
+## **Irradiance**
+2026 | 10 | 05 Last compiled: `r Sys.Date()`
+
+**View factor models**: models based on view or shape factors are often employed to estimate the rear surface irradiance, low computational demand and simplify.
+
+**Ray tracing models**: it models light transport achieving detailed and realistic results but requiring rather computationally expensive processes.
+
+# **Crop modelling**
+
+# **PV modelling**
