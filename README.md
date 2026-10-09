@@ -1,4 +1,4 @@
-**This repo is not used anymore!!!**
+**This repo is not updated / maintained anymore!!!**
 
 **Please move to the new one: LearningAgrivoltaic2**
 
