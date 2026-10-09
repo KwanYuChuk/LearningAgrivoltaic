@@ -22,4 +22,47 @@ knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
 
 The Agro–Ecological Zoning (AEZ) methodology is based on the principles of land evaluation (FAO, 1976), and it serves as a framework supporting sustainable agricultural development by delineating various agricultural land utilization possibilities. 
 
+# **Multi-criteria decision analysis**
 
+2026 | 10 | 09 Last compiled: `r Sys.Date()`
+
+There is a review paper about agrivoltaic spatial suitability [Geospatial planning strategies for agrivoltaic systems: a review of criteria, decision models and emerging challenges](https://www.sciencedirect.com/science/article/pii/S2213138825002759).
+
+Khazael et al. (2025) reported *The findings indicate that most spatial studies on AVS have been concentrated in the Northern Hemisphere and have predominantly relied on traditional multi-criteria decision-making models, with a notable absence of AI-driven planning solutions. Furthermore, much of the research overlooks comprehensive spatial evidence, particularly those related to soil characteristics and water availability.*
+
+![Figure: Geospatial planning workflow](images/geospatial_planning.png){width=75% fig-align="center"}
+
+Criteria need to be considered in the AV spatial planning: **climate, geographical criteria, infrastructure, exclusion**. 
+
+**1. Climate**: Solar radiation, temperature, precipitation, cloud and shade intensity, wind speed
+
+![Figure: Climate criteria](images/climate_criteria.png){width=100% fig-align="center"}
+
+**2. Geographical criteria**: Slope, aspect, LULC, cropland extent
+
+![Figure: Geographical criteria](images/geo_criteria.png){width=50% fig-align="center"}
+
+
+**3. Infrastructure criteria**: Proximity to power grid, proximity to road, proximity to settlement
+
+![Figure: Infrastructure criteria](images/infra_criteria.png){width=50% fig-align="center"}
+
+
+**4. Exclusionary criteria**: Protected area
+
+![Figure: Exclusionary criteria](images/exclusion_criteria.png){width=100% fig-align="center"}
+
+
+Some factors may important but not considered in most literature
+
+![Figure: Absent factors](images/absent_factors.png){width=100% fig-align="center"}
+
+I summarized 14 research papers about MCDA methods in AV area identification, following are results:
+
+![Figure: Highest weighting](images/gis_layer1.png){width=75% fig-align="center"}
+
+![Figure: Second highest weighting](images/gis_layer2.png){width=75% fig-align="center"}
+
+![Figure: Third highest weighting](images/gis_layer3.png){width=75% fig-align="center"}
+
+*Note: The weighting for each criteria is highly depend on the geographical location. For example some high latitude countries (Japan) will consider snow cover, while in my study area it is not needed.*
