@@ -1,3 +1,7 @@
+**This repo is not used anymore!!!**
+
+**Please move to the new one: LearningAgrivoltaic2**
+
 This is a webpage to store my agrivoltaic learning notes.
 
 You can get to the Github pages for this repository at https://kwanyuchuk.github.io/LearningAgrivoltaic/index.html
